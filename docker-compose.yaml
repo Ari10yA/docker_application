@@ -1,6 +1,7 @@
 version: "3"
 services:
   my-app:
+    container_name: dockercont
     build:
       context: .
       dockerfile: Dockerfile.dev
